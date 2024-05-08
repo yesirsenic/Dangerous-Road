@@ -1,0 +1,512 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1714142601043493, "dur":2829, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142601046341, "dur":133, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1714142601046491, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1714142601046525, "dur":847, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1714142601047403, "dur":1534, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142601048937, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602508790, "dur":140, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602508930, "dur":63, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602508993, "dur":38, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509031, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509046, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509049, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509056, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509058, "dur":47, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509105, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509107, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509113, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509115, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509121, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509122, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509128, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509130, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509134, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509149, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602509164, "dur":67986, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1714142601048847, "dur":263, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601049110, "dur":10165, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601059275, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714142601059714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601067837, "dur":4213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714142601072217, "dur":679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1714142601072900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601073131, "dur":8615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1714142601081871, "dur":14427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1714142601096303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601096315, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1714142601100351, "dur":35212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601135575, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601136810, "dur":6655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601143571, "dur":7013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601150589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601150616, "dur":3461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601154161, "dur":8937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601163103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601163205, "dur":13283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601176569, "dur":9895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601186469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601186490, "dur":8039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601194659, "dur":18352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601213017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601213031, "dur":8936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601222048, "dur":8696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601230753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601230767, "dur":11614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601242469, "dur":21001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601263473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601263480, "dur":96152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601360015, "dur":20123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601394028, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601394060, "dur":50378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601444764, "dur":25803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601470576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601470598, "dur":8983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601479778, "dur":18324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601498114, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601498164, "dur":12073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601510582, "dur":10259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601520845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601520854, "dur":22403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601543416, "dur":3482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601546907, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601546924, "dur":20222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601567230, "dur":67769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601635008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601635026, "dur":19081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601654205, "dur":4637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601658845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601658854, "dur":35419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601694386, "dur":51943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601746339, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601746359, "dur":19230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601765684, "dur":228738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601994429, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142601994445, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142601997628, "dur":149654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142602147294, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142602147314, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714142602151741, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1714142602152054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142602152521, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1714142602153996, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1714142602154078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142602154191, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1714142602155582, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1714142602155681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142602155692, "dur":3159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1714142602158941, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1714142602159021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142602159035, "dur":8230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1714142602167356, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1714142602167435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142602167444, "dur":3331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1714142602170872, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1714142602170955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714142602170992, "dur":184578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1714142602355667, "dur":153119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601048722, "dur":360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601049082, "dur":10124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601059207, "dur":23015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1714142601082227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601082430, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1714142601084964, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1714142601085367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601085381, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1714142601087200, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1714142601087368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601087420, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1714142601090675, "dur":39679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601130360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601130528, "dur":20435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601151089, "dur":10530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601161624, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601161639, "dur":3850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601165634, "dur":7438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601173080, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601173099, "dur":11299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601184512, "dur":21359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601205876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601205893, "dur":4144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601210220, "dur":10480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601220704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601220736, "dur":13149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601234055, "dur":7527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601241588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601241608, "dur":118010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601360007, "dur":21609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601394067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601394081, "dur":21232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601415560, "dur":16169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601431738, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601431763, "dur":15460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601447369, "dur":33689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601481097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601481116, "dur":28699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601510141, "dur":9256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601519402, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601519416, "dur":22668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601542175, "dur":97496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601639682, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601639703, "dur":21424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601661244, "dur":92790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601754039, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601754055, "dur":11818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601765963, "dur":198886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601964859, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142601964875, "dur":2761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142601967711, "dur":177195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142602144912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142602144928, "dur":5450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142602150533, "dur":59950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142602210489, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142602210513, "dur":51676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714142602262286, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1714142602262449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142602262461, "dur":39411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1714142602301960, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1714142602302115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714142602302129, "dur":71120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1714142602373322, "dur":135496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601048732, "dur":361, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601049093, "dur":10079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601059182, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1714142601059391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601064672, "dur":7397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1714142601072224, "dur":20305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1714142601092533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601092549, "dur":3995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1714142601096712, "dur":89113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road.exe" }}
+,{ "pid":12345, "tid":3, "ts":1714142601185831, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601185850, "dur":3193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road.exe" }}
+,{ "pid":12345, "tid":3, "ts":1714142601189139, "dur":8081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601197225, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601197273, "dur":14333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601211746, "dur":12306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601224059, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601224080, "dur":3618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601227780, "dur":10434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601238223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601238242, "dur":121364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601359989, "dur":21699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601394088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601394104, "dur":50777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601445220, "dur":36979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601482205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601482224, "dur":27597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601510200, "dur":10764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601520969, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601520981, "dur":21945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601543015, "dur":107968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601650990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601651006, "dur":42327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601693508, "dur":1661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601695204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601695223, "dur":25730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601721079, "dur":165831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601886919, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142601886939, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142601889138, "dur":211638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142602100785, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142602100801, "dur":5191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142602106086, "dur":333306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142602439398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714142602439412, "dur":69268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714142602508761, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1714142602508765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601048686, "dur":377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601049064, "dur":10114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601059182, "dur":2725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1714142601061913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601064661, "dur":11875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1714142601076628, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1714142601076767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601078675, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1714142601081139, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1714142601081389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601081546, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1714142601084075, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1714142601084226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601084247, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1714142601087270, "dur":4438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601091722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601092419, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601095450, "dur":11891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1714142601107348, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601107364, "dur":4760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1714142601112246, "dur":19473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601131724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601132912, "dur":5228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601138250, "dur":10402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601148668, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601148700, "dur":4264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601153079, "dur":8121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601161205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601161220, "dur":4369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601165681, "dur":11731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601177420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601177451, "dur":8457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601186043, "dur":9291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601195342, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601195365, "dur":9853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601205320, "dur":7982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601213306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601213325, "dur":7147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601220562, "dur":8573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601229141, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601229156, "dur":10415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601240195, "dur":22074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601262290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601262299, "dur":97293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601359883, "dur":40292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601400183, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601400201, "dur":45714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601446073, "dur":42599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601488681, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601488700, "dur":22500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601511386, "dur":184384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601695774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142601695785, "dur":32914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142601728804, "dur":309861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142602038673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142602038687, "dur":11752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142602050673, "dur":87661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142602138342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142602138388, "dur":4011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142602142485, "dur":225681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142602368171, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714142602368187, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714142602370839, "dur":137951, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601048664, "dur":380, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601049045, "dur":10227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601059272, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1714142601059651, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601064858, "dur":8041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1714142601073087, "dur":2193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1714142601075296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601075339, "dur":4128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1714142601079604, "dur":15895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1714142601095503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601095519, "dur":3092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1714142601098729, "dur":36863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601135596, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601135927, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601139536, "dur":6812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601146357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601146379, "dur":3928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601150425, "dur":11200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601161629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601161641, "dur":3933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601165679, "dur":12902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601178585, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601178604, "dur":18348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601197051, "dur":8923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601205978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601205988, "dur":5071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601211217, "dur":8577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601219802, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601219820, "dur":5205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601225122, "dur":8330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601233458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601233884, "dur":6727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601240732, "dur":21509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601262245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601262293, "dur":97495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601360068, "dur":46540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601406615, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601406641, "dur":37785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601444711, "dur":25840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601470585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601470604, "dur":8997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601479780, "dur":18375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601498161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601498179, "dur":11902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601510536, "dur":10151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601520691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601520700, "dur":22405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601543239, "dur":227408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601770653, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601770669, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601772538, "dur":149810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601922356, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142601922373, "dur":6878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142601929348, "dur":239041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142602168393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714142602168406, "dur":185654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714142602354164, "dur":154624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601048603, "dur":400, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601049006, "dur":10161, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601059182, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1714142601059198, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601061636, "dur":1550, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1714142601063203, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1714142601063705, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601064230, "dur":7605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1714142601071842, "dur":17007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1714142601088855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601088871, "dur":2393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1714142601091359, "dur":98159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601189524, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601189545, "dur":206914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601396597, "dur":25728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601422331, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601423755, "dur":23782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601447719, "dur":35867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601483594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601483612, "dur":26618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601510653, "dur":94417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601605077, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601605094, "dur":32770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601637978, "dur":50341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601688323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601688334, "dur":25258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601713913, "dur":44404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601758324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601758338, "dur":7818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601766252, "dur":107488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601873747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142601873762, "dur":2527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142601876366, "dur":123766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142602000139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142602000154, "dur":9203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142602009438, "dur":157723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142602167166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142602167177, "dur":10022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714142602177329, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1714142602177418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142602177431, "dur":7041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1714142602184567, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1714142602184815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142602184837, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1714142602186275, "dur":9961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1714142602196241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142602196253, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1714142602198032, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1714142602198145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142602198158, "dur":67981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1714142602266231, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1714142602266322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142602266336, "dur":45160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1714142602311626, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1714142602311748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142602311759, "dur":33062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1714142602344909, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1714142602344982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142602344995, "dur":8437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1714142602353556, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1714142602353861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714142602353881, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1714142602355566, "dur":153249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601048772, "dur":332, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601049104, "dur":10070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601059182, "dur":34179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1714142601093379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601093454, "dur":3702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1714142601097250, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1714142601097447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601098093, "dur":14646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1714142601112858, "dur":23050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601135914, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601135937, "dur":4075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601140097, "dur":6000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601146105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601146122, "dur":3546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601149767, "dur":7639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601157412, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601157427, "dur":2919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601160470, "dur":7999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601168476, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601168496, "dur":9866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601178460, "dur":17567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601196035, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601196054, "dur":14291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601210442, "dur":9518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601219964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601219978, "dur":4955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601225014, "dur":6373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601231391, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601231411, "dur":9357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601240902, "dur":20219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601261128, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601261144, "dur":98972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601360692, "dur":20433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601394043, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601394066, "dur":50422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601444778, "dur":12151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601456941, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601456956, "dur":9880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601466978, "dur":16815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601483797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601483807, "dur":26056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601510341, "dur":8536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601518887, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601518909, "dur":22786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601541839, "dur":116524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601658368, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601658380, "dur":39612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601698106, "dur":43509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601741644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601741659, "dur":5434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601747176, "dur":136476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601883661, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601883682, "dur":5131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601888906, "dur":44651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601933565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142601933581, "dur":13272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142601946942, "dur":61717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142602008669, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142602008690, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142602011436, "dur":155337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142602166782, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142602166802, "dur":5563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714142602172469, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1714142602172583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714142602172603, "dur":307336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1714142602480024, "dur":28805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601048871, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601049113, "dur":10057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601059183, "dur":69047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1714142601128237, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601129105, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1714142601131295, "dur":9588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601140893, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601140917, "dur":3188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601144193, "dur":18217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601162415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601162427, "dur":4710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601167257, "dur":7890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601175153, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601175169, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601178792, "dur":223697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601402496, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601402515, "dur":41899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601444702, "dur":12618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601457325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601457336, "dur":9739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601467302, "dur":19254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601486565, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601486593, "dur":22752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601509464, "dur":11020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601520493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601520542, "dur":22633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601543439, "dur":98842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601642288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601642302, "dur":19013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601661503, "dur":20273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601681782, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601681796, "dur":31821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601713945, "dur":2093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601716047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601716065, "dur":13542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601729690, "dur":83786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601813485, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601813506, "dur":33463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601847052, "dur":63630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601910713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142601910733, "dur":13916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142601924741, "dur":267829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142602192584, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714142602192601, "dur":178085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Dangerous Road/Build/Dangerous Road_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714142602370842, "dur":137989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714142602653667, "dur":3376, "ph":"X", "name": "ProfilerWriteOutput" }
+,
